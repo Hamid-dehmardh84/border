@@ -10,12 +10,11 @@ body{
     justify-content: center;
     align-items: center;}
 .did{
-    width: 300px;
-    height: 300px;
-    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
     border-style: solid;
     border-color: rgb(22, 102, 172) blue #7865e9 rgb(23, 46, 71);
-    border-radius: 50%;
+    border-radius: 500%;
     border-width: 8px;
     animation: move 1s infinite linear;
 }
@@ -24,3 +23,33 @@ body{
         transform: rotate(360deg);
     }
 }
+
+.dii{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255) rgb(201, 15, 15) #1809e7 rgb(5, 214, 85);
+    border-radius: 100%;
+    border-width: 8px;
+    animation: mov 60s infinite linear;
+}
+@keyframes mov {
+    to{
+        transform: rotate(360deg);
+    }
+}
+.da{
+   
+    width: 30px;
+    height: 30px;
+    background-color: aqua;
+    border-radius: 510%;
+    border-style: solid;
+    border-color: transparent  thistle transparent transparent;
+    border-width: 8px;
+    animation: move 1s infinite linear;
+}
+/*  */
